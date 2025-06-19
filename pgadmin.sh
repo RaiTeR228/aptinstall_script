@@ -1,8 +1,8 @@
 apt update -y && apt upgrade -y
 
-apt install curl
+apt install curl -y
 
-apt install gpg
+apt install gpg -y
 
 sudo curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o/usr/share/keyrings/pgadmin-keyring.gpg
 
